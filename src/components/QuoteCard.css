@@ -1,0 +1,44 @@
+.quoteCard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.quoteCard__phrase {
+    font-family: 'Ubuntu Mono', sans-serif, ;
+    font-size: 30px;                                          
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+.quoteCard_container {
+backdrop-filter: blur(5px);
+justify-content: center;
+
+
+
+}
+
+.quoteCard_title {
+    font-family: 'ELEPHANT A Oblique', sans-serif;
+    color: aliceblue;
+    position: relative;
+    bottom: 250px;
+    
+   
+}
+
+.quoteCard_btn { 
+background-image: -webkit-linear-gradient(top, #eb94d0, hsl(283, 98%, 41%));
+background-image: -moz-linear-gradient(top, #eb94d0, hsl(283, 98%, 41%));
+background-image: -ms-linear-gradient(top, #eb94d0, hsl(283, 98%, 41%));
+background-image: -o-linear-gradient(top, #eb94d0, hsl(283, 98%, 41%));
+background-image: linear-gradient(to bottom, #eb94d0, hsl(283, 98%, 41%));
+font-family: 'Air', sans-serif;
+border: none;
+
+}

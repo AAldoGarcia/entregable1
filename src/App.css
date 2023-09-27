@@ -1,0 +1,25 @@
+.app {
+   
+    background-size: cover;
+    background-position: center;
+}
+
+.app.fondo1 {
+    background-image: url(/fondo1.jpeg);
+}
+
+.app.fondo2 {
+    background-image: url(/fondo2.jpeg);
+}
+
+.app.fondo3 {
+    background-image: url(/fondo3.jpeg);
+}
+
+.app.fondo4 {
+    background-image: url(/fondo4.jpeg);
+}
+
+.quoteCard_btn {
+    background-color: red;
+}
